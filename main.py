@@ -13,10 +13,10 @@ def connect_to_sqlite(db_path):
 
 # Fungsi untuk menghubungkan ke SQL Server
 def connect_to_sql_server():
-    server = '202.162.194.91'  # Host SQL Server Anda
-    database = 'DatabaseAudiometri'  # Nama database Anda
-    username = 'laptopaudiometri'  # Username SQL Server Anda
-    password = 'audio12345'  # Password SQL Server Anda
+    server = 'hostname'  # Host SQL Server Anda
+    database = 'database'  # Nama database Anda
+    username = 'username'  # Username SQL Server Anda
+    password = 'password'  # Password SQL Server Anda
     conn = pyodbc.connect(
         f'DRIVER={{ODBC Driver 18 for SQL Server}};'
         f'SERVER={server};'
